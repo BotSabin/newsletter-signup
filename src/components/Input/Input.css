@@ -1,0 +1,30 @@
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+}
+
+.form-control label {
+  @apply text-[12px] text-dark-slate-gray font-bold font-roboto-b
+}
+
+.form-control input {
+  @apply w-full border-grey border-[.05rem] rounded-lg py-4 px-6 font-roboto
+}
+
+.form-control input:focus {
+  @apply outline-none border-grey
+}
+
+.form-control--invalid p {
+  color: red;
+}
+
+.form-control--invalid input {
+  color: red;
+  border-color: red;
+  background: #ffd1d1;
+}

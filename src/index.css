@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: roboto-b;
+    src: url(/fonts/Roboto-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: roboto;
+    src: url(/fonts/Roboto-Regular.ttf);
+  }
+
+  body {
+    @apply bg-charcoal
+  }

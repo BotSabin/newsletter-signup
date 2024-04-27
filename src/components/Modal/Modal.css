@@ -1,0 +1,29 @@
+.modal {
+  @apply fixed bg-charcoal w-full min-h-screen flex justify-center sm:items-center z-50
+}
+
+.modal-content {
+  @apply bg-white px-10 sm:p-14 sm:rounded-2xl sm:max-w-[450px] flex flex-col justify-around sm:gap-5
+}
+
+ .modal-enter {
+    transform: translateY(-10rem);
+    opacity: 0;
+  }
+  
+  .modal-enter-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 200ms;
+  }
+  
+  .modal-exit {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .modal-exit-active {
+    transform: translateY(-10rem);
+    opacity: 0;
+    transition: all 200ms;
+  }

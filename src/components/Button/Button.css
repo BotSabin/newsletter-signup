@@ -1,0 +1,14 @@
+.button {
+  @apply py-4 px-5 rounded-lg text-white bg-dark-slate-gray font-roboto-b tracking-wide w-full 
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  box-shadow: 0 10px 30px 0 hsl(4, 100%, 67%);
+  background-image: linear-gradient(to right, #ff4382, #FF6257);
+}
+
